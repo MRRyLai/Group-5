@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,6 +27,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 //    RecyclerViewAdapter mAdapter;
+    public static final String STORE_NO = "store_no";
     ImageButton ib1,ib2;
     String[] fromColumns = {"飲料專區","炸物專區","日式料理","台灣小吃","韓式料理","冰品專區","義式料理","泰式料理"};
     int[] toViews = {R.drawable.food_drinks, R.drawable.food_fries,
@@ -51,13 +53,13 @@ public class MainActivity extends AppCompatActivity {
         gv.setAdapter(new ImageAdapter(this, fromColumns));
         gv.setNumColumns(2);
         gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-                Toast.makeText(
-                        getApplicationContext(),
-                        ((TextView) v.findViewById(R.id.grid_item_label))
-                                .getText(), Toast.LENGTH_SHORT).show();
-
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                Log.d("position", String.valueOf(position));
+                Toast.makeText(getApplicationContext(), ((TextView) v.findViewById(R.id.grid_item_label)).getText(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, StoreList.class);
+                intent.putExtra(STORE_NO, position);
+                startActivity(intent);
             }
         });
 
