@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class KoreanStoreActivity extends AppCompatActivity {
     private Integer [] storeStar = {R.drawable.nostar, R.drawable.onestar, R.drawable.twostar, R.drawable.threestar, R.drawable.fourstar, R.drawable.fivestar};
@@ -35,9 +36,12 @@ public class KoreanStoreActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.btn_cancel:
                 finish();
+                break;
             case R.id.btn_add:
 //將點選的食物加入購物車
+                Toast.makeText(getApplicationContext(), "成功加入購物車", Toast.LENGTH_SHORT).show();
                 finish();
+                break;
         }
 
     }
