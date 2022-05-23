@@ -17,12 +17,12 @@ import java.util.List;
 public class StoreArrayAdapter extends ArrayAdapter<StoreItem> {
 
     private Context context;
-    private List<StoreItem> albumItems;
+    private List<StoreItem> storeItems;
 
-    public StoreArrayAdapter(@NonNull Context context, int resource, List<StoreItem> albumItems) {
-        super(context, resource, albumItems);
+    public StoreArrayAdapter(@NonNull Context context, int resource, List<StoreItem> storeItems) {
+        super(context, resource, storeItems);
         this.context = context;
-        this.albumItems = albumItems;
+        this.storeItems = storeItems;
     }
 
     @NonNull
@@ -38,7 +38,7 @@ public class StoreArrayAdapter extends ArrayAdapter<StoreItem> {
             itemLayout = (LinearLayout) convertView;
         }
 
-        StoreItem item = albumItems.get(position);
+        StoreItem item = storeItems.get(position);
 
         ImageView iv = itemLayout.findViewById(R.id.iv_photo);
         iv.setImageResource(item.getImgResId());
