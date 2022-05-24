@@ -24,12 +24,15 @@ public class KoreanStoreActivity extends AppCompatActivity {
 
         ListView lvComments = findViewById(R.id.lv_comments);
         ImageView ivStoreTitle = findViewById(R.id.iv_store_title);
+        ImageView ivStar = findViewById(R.id.iv_star);
         TextView tvStoreTitle = findViewById(R.id.tv_store_title);
 
         Intent intent = this.getIntent();
         int storeNo = intent.getIntExtra(StoreList.STORE_NO, 0);
         ivStoreTitle.setImageResource(storeImg[storeNo]);
+        ivStar.setImageResource(storeStar[storeNo]);
         tvStoreTitle.setText(storeName[storeNo]);
+
 
     }
     public void Onclick(View view){
