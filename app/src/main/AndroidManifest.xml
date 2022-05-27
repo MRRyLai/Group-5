@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group5">
         <activity
+            android:name=".ActivityOffer"
+            android:exported="false" />
+        <activity
+            android:name=".EverydayRecommend"
+            android:exported="false" />
+        <activity
             android:name=".KoreanStoreActivity"
             android:exported="false" />
         <activity

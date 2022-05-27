@@ -1,29 +1,16 @@
 package com.example.group5;
 
-import static android.net.wifi.WifiConfiguration.Status.strings;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageButton;
-import android.widget.ListView;
-import android.widget.SearchView;
-import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 //    RecyclerViewAdapter mAdapter;
@@ -63,6 +50,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void onclick(View v){
+        switch (v.getId()){
+
+            case R.id.ib_everyday:
+                Intent intent = new Intent(MainActivity.this, EverydayRecommend.class);
+                startActivity(intent);
+                break;
+            case R.id.ib_discount:
+                Intent intent1 = new Intent(MainActivity.this, ActivityOffer.class);
+                startActivity(intent1);
+                break;
+        }
     }
 
 

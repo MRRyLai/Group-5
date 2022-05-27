@@ -41,6 +41,7 @@
         android:layout_marginTop="80dp"
         android:contentDescription="@string/android_launcher_image"
         android:labelFor="@id/tv1"
+        android:onClick="onclick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/introduce_everyday" />
@@ -52,6 +53,7 @@
         android:layout_marginEnd="20dp"
         android:contentDescription="@string/android_launcher_image"
         android:labelFor="@id/tv2"
+        android:onClick="onclick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/ib_everyday"
         app:srcCompat="@drawable/promotions" />
