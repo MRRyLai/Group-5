@@ -16,6 +16,7 @@ public class KoreanStoreActivity extends AppCompatActivity {
     private String [] storeName = {"朴大哥的韓式炸雞", "阿里郎韓式小館", "司覓達 Seumnidak 韓式炸物"};
     private String [] storeAddress = {"台中市西屯區逢甲路20巷28弄5號", "台中市西區博館路161號", "台中市西屯區西安街209號"};
     private String [] storecomments = {""};
+    private String [] inshopping = {""};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

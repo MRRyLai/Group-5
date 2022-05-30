@@ -21,9 +21,12 @@
     <ListView
         android:id="@+id/lv_korean_store"
         android:layout_width="409dp"
-        android:layout_height="630dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="35dp" />
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/ib_shpooingcar"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="1dp" />
 
     <ImageButton
         android:id="@+id/ib_shpooingcar"
