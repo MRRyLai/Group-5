@@ -55,5 +55,21 @@ public class StoreList extends AppCompatActivity {
         });
 
     }
+    public void onclick(View v){
+        switch (v.getId()){
+
+            case R.id.ib_home:
+                finish();
+                break;
+            case R.id.ib_shpooingcar:
+                Intent intent = new Intent(this, ShoppingcarActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.ib_menu:
+                Intent intent1 = new Intent(this, MenuActivity.class);
+                startActivity(intent1);
+                break;
+        }
+    }
 
 }

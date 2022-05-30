@@ -63,6 +63,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent1 = new Intent(MainActivity.this, ActivityOffer.class);
                 startActivity(intent1);
                 break;
+            case R.id.ib_home:
+                break;
+            case R.id.ib_shpooingcar:
+                Intent intent2 = new Intent(MainActivity.this, ShoppingcarActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.ib_menu:
+                Intent intent3 = new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(intent3);
+                break;
         }
     }
 

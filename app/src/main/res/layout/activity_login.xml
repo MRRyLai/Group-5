@@ -4,11 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
+    android:background="#FBFBFB"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#e8f4f8">
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tv_title_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="第五外送"
+        android:textAlignment="center"
+        android:textColor="#203771"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etEmail"
@@ -34,10 +45,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登入"
-        android:background="#44a6c6"
+        android:background="#FFC107"
         android:onClick="login"
-        android:textColor="@android:color/white"/>
+        android:text="登入"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:layout_width="match_parent"

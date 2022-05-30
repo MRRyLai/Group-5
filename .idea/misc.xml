@@ -3,9 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_business.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_catch_order.xml" value="0.1296875" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_choose_identity.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_customer_service.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_everyday_recommend.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_korean_store.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_offer.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_shop_host.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_shoppingcar.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_store_list.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_want_sell.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/listitem.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/text_with_image_in_list.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/xml/network_security_config.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/group52/app/src/main/res/layout/activity_everyday_recommend.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/group52/app/src/main/res/layout/activity_korean_store.xml" value="0.264" />

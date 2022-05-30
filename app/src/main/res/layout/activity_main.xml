@@ -26,6 +26,7 @@
         android:id="@+id/gv_intrduce"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
         android:columnWidth="150dp"
         android:numColumns="auto_fit"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,5 +89,33 @@
         app:layout_constraintEnd_toEndOf="@+id/ib_discount"
         app:layout_constraintStart_toStartOf="@+id/ib_discount"
         app:layout_constraintTop_toBottomOf="@+id/ib_discount" />
+
+    <ImageButton
+        android:id="@+id/ib_shpooingcar"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:onClick="onclick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ib_menu"
+        app:layout_constraintStart_toEndOf="@+id/ib_home"
+        app:srcCompat="@drawable/shoppingcar1" />
+
+    <ImageButton
+        android:id="@+id/ib_menu"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:onClick="onclick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageButton
+        android:id="@+id/ib_home"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:onClick="onclick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,10 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e8f4f8"
+    android:background="#FFFFFF"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第五外送"
+        android:textAlignment="center"
+        android:textColor="#203771"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etName"
@@ -53,7 +63,7 @@
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#44a6c6"
+        android:background="#FFC107"
         android:onClick="save"
         android:text="註冊"
         android:textColor="@android:color/white" />
