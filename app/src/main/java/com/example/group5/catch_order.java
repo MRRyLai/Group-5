@@ -16,7 +16,8 @@ public class catch_order extends AppCompatActivity {
 
 
     public void go_back(View view){
-        Intent it = new Intent(this,shop_host.class );
-        startActivity(it);
+//        Intent it = new Intent(this,shop_host.class );
+//        startActivity(it);
+        finish();
     }
 }

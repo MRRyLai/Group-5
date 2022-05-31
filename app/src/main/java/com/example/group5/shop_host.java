@@ -35,8 +35,9 @@ public class shop_host extends AppCompatActivity {
     }
 
    public void goto_choose_identity(View view){
-        Intent it = new Intent(this,choose_identity.class );
-        startActivity(it);
+//        Intent it = new Intent(this,choose_identity.class );
+//        startActivity(it);
+       finish();
     }
 
 

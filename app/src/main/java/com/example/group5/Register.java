@@ -29,6 +29,7 @@ public class Register extends AppCompatActivity {
     private Button btnRegister;
     private String URL = "http://10.0.2.2/application_project/register.php";
     private String name, email, password, reenterPassword;
+    static public String data_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
