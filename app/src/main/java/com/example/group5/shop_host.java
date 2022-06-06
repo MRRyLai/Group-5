@@ -73,10 +73,15 @@ public class shop_host extends AppCompatActivity {
         startActivity(it);
     }
 
-   public void goto_choose_identity(View view){
-//        Intent it = new Intent(this,choose_identity.class );
+    public void goto_choose_identity(View view){
+//        Intent it = new Intent(this,Login.class );
 //        startActivity(it);
-       finish();
+        finish();
+    }
+    public void logout(View view){
+        Intent it = new Intent(this,Login.class );
+        startActivity(it);
+        finish();
     }
 
 }
