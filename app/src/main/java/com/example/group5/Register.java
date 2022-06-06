@@ -30,6 +30,7 @@ public class Register extends AppCompatActivity {
     private String URL = "http://10.0.2.2/application_project/register.php";
     private String name, email, password, reenterPassword;
     static public String data_name;
+    static public String reg_username = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,8 +58,7 @@ public class Register extends AppCompatActivity {
                 @Override
                 public void onResponse(String response) {
                     if (response.equals("success")) {
-//                        tvStatus.setText("Successfully registered.");
-//                        btnRegister.setClickable(false);
+                        reg_username = name+"\n";
                         Toast.makeText(Register.this, "註冊成功", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(Register.this, choose_identity.class);
                         startActivity(intent);

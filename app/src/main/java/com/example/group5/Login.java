@@ -25,7 +25,7 @@ public class Login extends AppCompatActivity {
     private EditText etEmail, etPassword;
     private String email, password;
     private String URL = "http://10.0.2.2/application_project/login.php";
-
+    static public String log_username = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,13 +43,15 @@ public class Login extends AppCompatActivity {
                 @Override
                 public void onResponse(String response) {
                     Log.d("res", response);
-                    if (response.equals("success")) {
+                    if (response.equals("failure")) {
+                        Toast.makeText(Login.this, "無效的名稱或密碼", Toast.LENGTH_SHORT).show();
+                    }
+                    else {
+                        log_username = response.substring(12);
                         Intent intent = new Intent(Login.this, choose_identity.class);
                         Toast.makeText(Login.this, "登入成功", Toast.LENGTH_SHORT).show();
                         startActivity(intent);
                         finish();
-                    } else if (response.equals("failure")) {
-                        Toast.makeText(Login.this, "無效的名稱或密碼", Toast.LENGTH_SHORT).show();
                     }
                 }
             }, new Response.ErrorListener() {

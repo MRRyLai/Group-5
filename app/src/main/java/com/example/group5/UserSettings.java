@@ -11,7 +11,6 @@ import android.widget.TextView;
 import java.net.URL;
 
 public class UserSettings extends AppCompatActivity {
-    private String url = "http://10.0.2.2/application_project/getdata.php";
     TextView textView;
     private String username = "";
     @Override
@@ -20,12 +19,14 @@ public class UserSettings extends AppCompatActivity {
         setContentView(R.layout.activity_user_settings);
 
         textView = findViewById(R.id.tv_user_name);
-
-    }
-    public void getdata(){
-
+        if(Login.log_username!=""){
+            username = Login.log_username;
+        }else{
+            username = Register.reg_username;
+        }
         textView.setText(username);
     }
+
     public void onclick(View v){
         switch (v.getId()){
 
