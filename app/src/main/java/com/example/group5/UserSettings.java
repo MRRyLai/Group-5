@@ -21,8 +21,10 @@ public class UserSettings extends AppCompatActivity {
         textView = findViewById(R.id.tv_user_name);
         if(Login.log_username!=""){
             username = Login.log_username;
+            Login.log_username = "";
         }else{
             username = Register.reg_username;
+            Register.reg_username = "";
         }
         textView.setText(username);
     }
@@ -37,6 +39,10 @@ public class UserSettings extends AppCompatActivity {
             case R.id.btn_logout:
                 Intent intent1 = new Intent(this, Login.class);
                 startActivity(intent1);
+                finish();
+                break;
+            case R.id.btn_usersetting_back:
+                finish();
                 break;
         }
     }

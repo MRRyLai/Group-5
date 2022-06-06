@@ -32,12 +32,21 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 //                Log.v("saokfasopdkf", String.valueOf(position));
-
-                Intent intent = new Intent();
-                intent.setClass(MenuActivity.this, UserSettings.class);
-//                intent.putExtra(MENU_NO, position);
-                startActivity(intent);
-
+                if(position==0){
+                    Intent intent = new Intent();
+                    intent.setClass(MenuActivity.this, UserSettings.class);
+                    startActivity(intent);
+                }
+                else if(position==1){
+                    Intent intent = new Intent();
+                    intent.setClass(MenuActivity.this, CheckingOrder.class);
+                    startActivity(intent);
+                }
+                else if(position==2){
+                    Intent intent = new Intent();
+                    intent.setClass(MenuActivity.this, customer_service.class);
+                    startActivity(intent);
+                }
             }
         });
     }
