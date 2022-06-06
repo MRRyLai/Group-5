@@ -20,10 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:background="#E91E63"
+            android:background="#E30551"
             android:insetLeft="4dp"
             android:insetTop="48dp"
             android:insetRight="4dp"
+            android:onClick="set_close"
             android:text="非營業時間(關閉接單功能)"
             android:textSize="20sp" />
 
@@ -36,6 +37,7 @@
             android:insetLeft="4dp"
             android:insetTop="48dp"
             android:insetRight="4dp"
+            android:onClick="set_business"
             android:text="營業中(開放接單)"
             android:textSize="20sp" />
 

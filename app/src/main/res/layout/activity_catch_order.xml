@@ -17,10 +17,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:background="#E91E63"
+            android:background="#E30551"
             android:insetLeft="4dp"
             android:insetTop="48dp"
             android:insetRight="4dp"
+            android:onClick="set_busy"
             android:text="忙碌中(出餐較慢)"
             android:textSize="20sp" />
 
@@ -33,6 +34,7 @@
             android:insetLeft="4dp"
             android:insetTop="48dp"
             android:insetRight="4dp"
+            android:onClick="set_normal"
             android:text="正常時段(出餐較慢)"
             android:textSize="20sp" />
 
@@ -45,6 +47,7 @@
             android:insetLeft="4dp"
             android:insetTop="48dp"
             android:insetRight="4dp"
+            android:onClick="set_free"
             android:text="非巔峰時段(出餐較快)"
             android:textSize="20sp" />
     </LinearLayout>
