@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">group5</string>
     <string name="android_launcher_image" />
+    <string-array name="user_identity">
+        <item>消費者</item>
+        <item>外送員</item>
+        <item>商家</item>
+    </string-array>
+    <string-array name="event">
+        <item>態度不佳</item>
+        <item>商品損壞/品質不佳</item>
+        <item>訂單問題</item>
+        <item>時間問題</item>
+    </string-array>
 </resources>
