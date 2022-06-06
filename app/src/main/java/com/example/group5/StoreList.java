@@ -22,12 +22,6 @@ public class StoreList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list);
-//
-//        Intent intent = this.getIntent();
-//        int albumNo = intent.getIntExtra(MainActivity.STORE_NO, 0);
-
-
-
 
         ListView lvKoreanStore = this.findViewById(R.id.lv_korean_store);
 
@@ -35,7 +29,6 @@ public class StoreList extends AppCompatActivity {
         for(int i=0;i< storeName.length;i++){
             storeList.add(new StoreItem(storeImg[i],storeName[i], storeAddress[i]));
         }
-
 
         StoreArrayAdapter adapter = new StoreArrayAdapter(StoreList.this, R.layout.listitem, storeList);
 
