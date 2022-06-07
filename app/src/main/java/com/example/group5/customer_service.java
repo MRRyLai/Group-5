@@ -34,7 +34,7 @@ public class customer_service extends AppCompatActivity implements AdapterView.O
             switch (v.getId()) { //Run Code For Major Spinner
 
                 case R.id.btn_send: {
-                    String information = "身分:" + user_identity.getSelectedItem() + "\n類型:" + event.getSelectedItem() + "\n理由:" + etexplain.getText().toString() + "\n完成傳送!";
+                    String information = "身分:" + user_identity.getSelectedItem() + "\n類型:" + event.getSelectedItem() + "\n理由:" + etexplain.getText().toString() + "\n傳送成功!";
                     Toast.makeText(this, information, Toast.LENGTH_LONG).show();
 //                    finish();
                     break;
