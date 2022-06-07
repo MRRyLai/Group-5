@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".want_sell">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選取作為促銷的商品:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/hamber" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="139dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/firce" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="109dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/cola" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="133dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/chicken" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="設定優惠碼:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="go_back"
+        android:text="返回"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="go_back"
+        android:text="確定"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

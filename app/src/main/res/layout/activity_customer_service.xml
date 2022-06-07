@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer_service">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服專區:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_customer_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onclick"
+        android:text="返回"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_send"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onclick"
+        android:text="確定"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/sp_user_identity"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/user_identity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_user_id" />
+
+    <Spinner
+        android:id="@+id/sp_event"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/event"
+        app:layout_constraintTop_toBottomOf="@+id/tv_event"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="請選擇您的身分:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="遇到的問題:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_user_identity" />
+
+    <EditText
+        android:id="@+id/et_explain"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="說明詳細情形"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_event" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
