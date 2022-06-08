@@ -18,7 +18,7 @@ public class maploadFragment extends AppCompatActivity implements OnMapReadyCall
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.raw_mapview_demo);
+//        setContentView(R.layout.raw_mapview_demo);
 
         // *** IMPORTANT ***
         // MapView requires that the Bundle you pass contain _ONLY_ MapView SDK
