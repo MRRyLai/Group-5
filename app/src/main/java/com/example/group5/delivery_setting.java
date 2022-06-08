@@ -50,6 +50,8 @@ public class delivery_setting extends AppCompatActivity {
                 Intent intent3 = new Intent(this, delivery_HP.class);
                 startActivity(intent3);
                 break;
+            case R.id.del_menu:
+                break;
 
         }
     }
