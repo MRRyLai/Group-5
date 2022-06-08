@@ -41,9 +41,11 @@
 
     <Spinner
         android:id="@+id/sp_user_identity"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
         android:entries="@array/user_identity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,17 +53,21 @@
 
     <Spinner
         android:id="@+id/sp_event"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
         android:entries="@array/event"
-        app:layout_constraintTop_toBottomOf="@+id/tv_event"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_event" />
 
     <TextView
         android:id="@+id/tv_user_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:text="請選擇您的身分:"
         android:textSize="20sp"

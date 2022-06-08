@@ -32,7 +32,6 @@ public class delivery_setting extends AppCompatActivity {
         if(Login.log_username!=""){
             username = Login.log_username;
             userid = Login.log_userid;
-
         }else{
             username = Register.reg_username;
             Register.reg_username = "";
