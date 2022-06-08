@@ -19,11 +19,13 @@ public class delivery_setting extends AppCompatActivity {
     private String userid = "";
     private String username = "";
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_set);
+
+//        switchButton = findViewById(R.id.sw_workstaCH);
+        imageViewLight = findViewById(R.id.worklight);
 
         textView = findViewById(R.id.del_name);
         textView1 = findViewById(R.id.del_codeNum);
