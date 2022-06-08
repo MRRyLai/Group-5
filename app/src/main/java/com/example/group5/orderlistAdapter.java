@@ -17,7 +17,7 @@ public class orderlistAdapter extends BaseAdapter {
 
     public orderlistAdapter(Context ctx, String [] listorder, int[] images){
         this.context = ctx;
-        this.orderlist = orderlist;
+        this.orderlist = listorder;
         this.orderImages = images;
         inflater = LayoutInflater.from(ctx);
     }
