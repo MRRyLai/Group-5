@@ -14,16 +14,18 @@ import androidx.appcompat.widget.SwitchCompat;
 public class delivery_setting extends AppCompatActivity {
 
     TextView textView;
-    SwitchCompat switchButton;
+    CompoundButton switchButton;
     ImageView imageViewLight;
 
     private String username = "";
 
-    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_set);
+
+        switchButton = findViewById(R.id.sw_workstaCH);
+        imageViewLight = findViewById(R.id.worklight);
 
         textView = findViewById(R.id.del_name);
         if(Login.log_username!=""){
@@ -35,8 +37,7 @@ public class delivery_setting extends AppCompatActivity {
         }
         textView.setText(username);
 
-        switchButton = findViewById(R.id.sw_workstaCH);
-        imageViewLight = findViewById(R.id.worklight);
+
 
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
