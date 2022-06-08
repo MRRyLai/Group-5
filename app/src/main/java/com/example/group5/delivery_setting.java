@@ -1,18 +1,25 @@
 package com.example.group5;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 public class delivery_setting extends AppCompatActivity {
 
     TextView textView;
-    TextView codenum;
+    SwitchCompat switchButton;
+    ImageView imageViewLight;
+
     private String username = "";
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +35,27 @@ public class delivery_setting extends AppCompatActivity {
         }
         textView.setText(username);
 
+        switchButton = findViewById(R.id.sw_workstaCH);
+        imageViewLight = findViewById(R.id.worklight);
+
+        switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(compoundButton.isChecked()){
+                    imageViewLight.setImageResource(R.drawable.greenlight);
+                }else{
+                    imageViewLight.setImageResource(R.drawable.redlight);
+                }
+            }
+        });
+
+
+
     }
 
     public void onclick(View v){
         switch (v.getId()){
+
 
             case R.id.btn_changeIdentity:
                 Intent intent = new Intent(this, choose_identity.class);
