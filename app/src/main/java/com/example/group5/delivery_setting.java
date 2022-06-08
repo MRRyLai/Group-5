@@ -13,13 +13,8 @@ import androidx.appcompat.widget.SwitchCompat;
 
 public class delivery_setting extends AppCompatActivity {
 
-<<<<<<< HEAD
-    TextView textView;
-//    CompoundButton switchButton;
-=======
     TextView textView,textView1;
     SwitchCompat switchButton;
->>>>>>> master
     ImageView imageViewLight;
     private String userid = "";
     private String username = "";
