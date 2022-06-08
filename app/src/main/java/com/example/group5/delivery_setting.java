@@ -14,7 +14,7 @@ import androidx.appcompat.widget.SwitchCompat;
 public class delivery_setting extends AppCompatActivity {
 
     TextView textView;
-    CompoundButton switchButton;
+//    CompoundButton switchButton;
     ImageView imageViewLight;
 
     private String username = "";
@@ -24,7 +24,7 @@ public class delivery_setting extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_set);
 
-        switchButton = findViewById(R.id.sw_workstaCH);
+//        switchButton = findViewById(R.id.sw_workstaCH);
         imageViewLight = findViewById(R.id.worklight);
 
         textView = findViewById(R.id.del_name);
@@ -39,16 +39,16 @@ public class delivery_setting extends AppCompatActivity {
 
 
 
-        switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(compoundButton.isChecked()){
-                    imageViewLight.setImageResource(R.drawable.greenlight);
-                }else{
-                    imageViewLight.setImageResource(R.drawable.redlight);
-                }
-            }
-        });
+//        switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+//                if(compoundButton.isChecked()){
+//                    imageViewLight.setImageResource(R.drawable.greenlight);
+//                }else{
+//                    imageViewLight.setImageResource(R.drawable.redlight);
+//                }
+//            }
+//        });
 
 
 
