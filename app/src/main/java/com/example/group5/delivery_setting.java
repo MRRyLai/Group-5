@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class delivery_setting extends AppCompatActivity {
 
     TextView textView;
+    TextView codenum;
     private String username = "";
 
     @Override
@@ -26,6 +27,7 @@ public class delivery_setting extends AppCompatActivity {
             Register.reg_username = "";
         }
         textView.setText(username);
+
     }
 
     public void onclick(View v){
