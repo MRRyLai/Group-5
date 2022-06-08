@@ -24,8 +24,8 @@ public class choose_identity extends AppCompatActivity {
         startActivity(it);
     }
 
-   /* public void goto_delivery_man(View view){
-        Intent it = new Intent(this,MainActivity.class );
+    public void goto_delivery_man(View view){
+        Intent it = new Intent(this,delivery_setting.class );
         startActivity(it);
-    }*/
+    }
 }
