@@ -15,17 +15,17 @@ public class choose_identity extends AppCompatActivity {
     }
 
     public void goto_MainActivity(View view){
-        Intent it = new Intent(this,MainActivity.class );
+        Intent it = new Intent(choose_identity.this,MainActivity.class );
         startActivity(it);
     }
 
     public void goto_shop_host(View view){
-        Intent it = new Intent(this,shop_host.class );
+        Intent it = new Intent(choose_identity.this,shop_host.class );
         startActivity(it);
     }
 
     public void goto_delivery_man(View view){
-        Intent it = new Intent(this,delivery_setting.class );
+        Intent it = new Intent(choose_identity.this,delivery_setting.class );
         startActivity(it);
     }
 }

@@ -63,6 +63,7 @@
         android:id="@+id/btn_changeStatus"
         android:layout_width="320dp"
         android:layout_height="60dp"
+        android:onClick="onclick"
         android:text="改變狀態"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
