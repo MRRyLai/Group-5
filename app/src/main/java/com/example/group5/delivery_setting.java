@@ -9,23 +9,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class delivery_setting extends AppCompatActivity {
 
-    TextView textView;
+    TextView textView,textView1;
     private String username = "";
-
+    private String deliveryid = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_set);
 
         textView = findViewById(R.id.del_name);
-        if(Login.log_username!=""){
+        textView1 = findViewById(R.id.tv_deliveryid);
+
+        if(Login.log_username!=""){//從登入端獲取用戶資料
+            deliveryid = Login.log_user_id;
             username = Login.log_username;
-            Login.log_username = "";
-        }else{
+
+        }else{//從註冊端獲取用戶資料
             username = Register.reg_username;
-            Register.reg_username = "";
+
         }
         textView.setText(username);
+        textView1.setText("外送編號:\n"+deliveryid);
     }
 
     public void onclick(View v){
@@ -36,6 +40,7 @@ public class delivery_setting extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btn_delLogout:
+                Login.log_username = Register.reg_username = username = deliveryid = "";
                 Intent intent1 = new Intent(this, Login.class);
                 startActivity(intent1);
                 finish();

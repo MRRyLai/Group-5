@@ -108,6 +108,16 @@
         app:layout_constraintHorizontal_bias="0.824"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.169" />
+
+    <TextView
+        android:id="@+id/tv_deliveryid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="外送編號:\n"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/del_workStatus"
+        app:layout_constraintTop_toBottomOf="@+id/del_workStatus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
