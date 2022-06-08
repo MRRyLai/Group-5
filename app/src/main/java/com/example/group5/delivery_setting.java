@@ -13,10 +13,15 @@ import androidx.appcompat.widget.SwitchCompat;
 
 public class delivery_setting extends AppCompatActivity {
 
+<<<<<<< HEAD
     TextView textView;
 //    CompoundButton switchButton;
+=======
+    TextView textView,textView1;
+    SwitchCompat switchButton;
+>>>>>>> master
     ImageView imageViewLight;
-
+    private String userid = "";
     private String username = "";
 
     @Override
@@ -28,16 +33,19 @@ public class delivery_setting extends AppCompatActivity {
         imageViewLight = findViewById(R.id.worklight);
 
         textView = findViewById(R.id.del_name);
+        textView1 = findViewById(R.id.del_codeNum);
         if(Login.log_username!=""){
             username = Login.log_username;
-            Login.log_username = "";
+            userid = Login.log_userid;
+
         }else{
             username = Register.reg_username;
             Register.reg_username = "";
         }
         textView.setText(username);
-
-
+        textView1.setText(userid);
+//        switchButton = findViewById(R.id.sw_workstaCH);
+        imageViewLight = findViewById(R.id.worklight);
 
 //        switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 //            @Override
@@ -63,6 +71,7 @@ public class delivery_setting extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btn_delLogout:
+                Login.log_username = userid = username = "";
                 Intent intent1 = new Intent(this, Login.class);
                 startActivity(intent1);
                 finish();

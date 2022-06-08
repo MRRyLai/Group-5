@@ -3,6 +3,7 @@ package com.example.group5;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +30,6 @@ public class Register extends AppCompatActivity {
     private Button btnRegister;
     private String URL = "http://10.0.2.2/application_project/register.php";
     private String name, email, password, reenterPassword;
-    static public String data_name;
     static public String reg_username = "";
 
     @Override
@@ -59,8 +59,8 @@ public class Register extends AppCompatActivity {
                 public void onResponse(String response) {
                     if (response.equals("success")) {
                         reg_username = name+"\n";
-                        Toast.makeText(Register.this, "註冊成功", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(Register.this, choose_identity.class);
+                        Toast.makeText(Register.this, "註冊成功\n請重新登入.", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(Register.this, Login.class);
                         startActivity(intent);
                         finish();
                     } else if (response.equals("failure")) {
