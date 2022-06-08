@@ -50,15 +50,8 @@ public class delivery_setting extends AppCompatActivity {
                 Intent intent3 = new Intent(this, delivery_HP.class);
                 startActivity(intent3);
                 break;
-            case R.id.ib_home:
-                break;
-            case R.id.ib_shpooingcar:
-                Intent intent4 = new Intent(this, ShoppingcarActivity.class);
-                startActivity(intent4);
-                break;
-            case R.id.ib_menu:
-                Intent intent5 = new Intent(this, MenuActivity.class);
-                startActivity(intent5);
+
+            case R.id.del_menu:
                 break;
         }
     }

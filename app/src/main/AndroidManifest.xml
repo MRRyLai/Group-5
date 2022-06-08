@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group5">
         <activity
+            android:name=".delivery_HP"
+            android:exported="false" />
+        <activity
             android:name=".delivery_setting"
             android:exported="false" />
         <activity
