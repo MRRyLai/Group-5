@@ -6,13 +6,13 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/del_menu"
+        android:id="@+id/del_home"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/menu" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home" />
 
     <ImageButton
         android:id="@+id/del_delList"
@@ -22,16 +22,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/_24px_noun_project_list_icon_119366_cc_svg_1654690699960" />
+        app:srcCompat="@drawable/deliver_list" />
 
     <ImageButton
-        android:id="@+id/del_home"
+        android:id="@+id/del_menu"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/home" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/menu" />
 
     <Button
         android:id="@+id/btn_changeIdentity"
@@ -102,10 +102,8 @@
         android:layout_height="wrap_content"
         android:text="上班中"
         android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/del_delList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,5 +30,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/_24px_noun_project_list_icon_119366_cc_svg_1654690699960" />
+        app:srcCompat="@drawable/deliver_list" />
 </androidx.constraintlayout.widget.ConstraintLayout>
