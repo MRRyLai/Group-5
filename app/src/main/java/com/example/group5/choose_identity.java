@@ -25,7 +25,7 @@ public class choose_identity extends AppCompatActivity {
     }
 
     public void goto_delivery_man(View view){
-        Intent it = new Intent(choose_identity.this,delivery_setting.class );
+        Intent it = new Intent(choose_identity.this,del_setpage_off.class );
         startActivity(it);
     }
 }
