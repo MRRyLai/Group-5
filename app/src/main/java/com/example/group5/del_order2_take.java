@@ -34,6 +34,7 @@ public class del_order2_take extends AppCompatActivity {
             case R.id.del_delList7:
                 break;
             case R.id.del_menu7:
+                Toast.makeText(del_order2_take.this, "送達或棄單方能查看頁面", Toast.LENGTH_SHORT).show();
                 break;
 
         }
