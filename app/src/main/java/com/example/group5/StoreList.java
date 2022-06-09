@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 public class StoreList extends AppCompatActivity {
     public static final String STORE_NO = "store_no";
+    static public ArrayList<String> inshoppingcar = new ArrayList<String>();
     private Integer[] storeImg = {R.drawable.korean_store1, R.drawable.korean_store2, R.drawable.korean_store3};
     private String [] storeName = {"朴大哥的韓式炸雞", "阿里郎韓式小館", "司覓達 Seumnidak 韓式炸物"};
     private String [] storeAddress = {"台中市西屯區逢甲路20巷28弄5號", "台中市西區博館路161號", "台中市西屯區西安街209號"};
