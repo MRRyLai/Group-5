@@ -5,14 +5,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.Toast;
 
 public class del_order2 extends AppCompatActivity {
+
+    String foodOrdered [] = {"烤肉飯", "辣豆腐煲"};
+    String orderedAmo [] = {"*3", "*1"};
+
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_del_order2);
+
+        listView = (ListView) findViewById(R.id.lv_order2_list);
+        delOrderLVAdapter delOrderLVAdapter = new delOrderLVAdapter(getApplicationContext(),foodOrdered, orderedAmo);
+        listView.setAdapter(delOrderLVAdapter);
     }
 
     public void onclick(View v){

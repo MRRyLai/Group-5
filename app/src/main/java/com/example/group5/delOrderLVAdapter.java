@@ -41,9 +41,9 @@ public class delOrderLVAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         convertView = inflater.inflate(R.layout.activity_del_order_lv, null);
         TextView txtView = (TextView) convertView.findViewById(R.id.foodname);
-        TextView fruitImg = (TextView)convertView.findViewById(R.id.amount);
+        TextView txtView1 = (TextView)convertView.findViewById(R.id.amount);
         txtView.setText(foodlist[position]);
-        txtView.setText(amountlist[position]);
+        txtView1.setText(amountlist[position]);
 
         return convertView;
     }
