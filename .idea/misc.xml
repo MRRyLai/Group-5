@@ -38,15 +38,20 @@
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order1_take.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order2.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order2_take.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order_lv.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_setpage_off.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_setpage_on.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delivery_hp.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delivery_set.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delset_order_sta.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_main.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_menu.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_off_to_onstatus.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_on_to_offstatus.xml" value="0.22871376811594202" />
+        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_order.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_order_listview.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_store_list.xml" value="0.22871376811594202" />
+        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/del_order_lv.xml" value="0.24728260869565216" />
       </map>
     </option>
   </component>
