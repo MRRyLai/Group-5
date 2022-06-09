@@ -56,7 +56,7 @@ public class del_setpage_off extends AppCompatActivity {
                 Toast.makeText(del_setpage_off.this, "打卡上班才可查看可接取訂單", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.del_delList_off:
-                Toast.makeText(del_setpage_off.this, "尚未接取任何訂單", Toast.LENGTH_SHORT).show();
+                Toast.makeText(del_setpage_off.this, "打卡上班才可查看接取訂單", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.del_menu_off:
                 break;
