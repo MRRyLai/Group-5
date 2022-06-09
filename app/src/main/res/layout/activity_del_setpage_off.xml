@@ -38,26 +38,24 @@
         android:id="@+id/btn_changeIdentity_off"
         android:layout_width="320dp"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:onClick="onclick"
         android:text="切換身分"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_delivery_cus_device1" />
 
     <Button
         android:id="@+id/btn_delLogout_off"
         android:layout_width="320dp"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:text="登出"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_changeIdentity_off" />
 
     <ImageView
         android:id="@+id/imageView3_off"
@@ -144,5 +142,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.402" />
+
+    <Button
+        android:id="@+id/btn_delivery_cus_device1"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onclick"
+        android:text="客服管道"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_chStatus_off" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
