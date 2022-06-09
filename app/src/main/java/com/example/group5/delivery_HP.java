@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.group5.databinding.ActivityMainBinding;
+
 public class delivery_HP extends AppCompatActivity {
 
     String orderlist[] = {"order1", "order2", "order3"};
@@ -14,10 +16,14 @@ public class delivery_HP extends AppCompatActivity {
 
     ListView listView;
 
+    ActivityMainBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_delivery_hp);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
         listView = (ListView) findViewById(R.id.LV_orderlist);
         orderlistAdapter orderlistAdapter = new orderlistAdapter(getApplicationContext(),orderlist, orderImages);
         listView.setAdapter(orderlistAdapter);
