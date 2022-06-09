@@ -14,6 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group5">
         <activity
+            android:name=".del_order_lv"
+            android:exported="false" />
+        <activity
+            android:name=".del_order1_take"
+            android:exported="false" />
+        <activity
+            android:name=".del_order2_take"
+            android:exported="false" />
+        <activity
+            android:name=".del_order2"
+            android:exported="false" />
+        <activity
+            android:name=".del_order1"
+            android:exported="false" />
+        <activity
             android:name=".on_to_offstatus"
             android:exported="false" />
         <activity
