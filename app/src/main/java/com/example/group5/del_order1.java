@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class del_order1 extends AppCompatActivity {
 
     String foodOrdered [] = {"辣炒年糕", "炸醬麵", "起司炸雞"};
-    String orderedAmo [] = {"*2", "*1", "*1"};
+    String orderedAmo [] = {"*2  ", "*1  ", "*1  "};
 
     ListView listView;
 
