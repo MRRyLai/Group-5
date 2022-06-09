@@ -49,12 +49,10 @@ public class delivery_setting extends AppCompatActivity {
                 startActivity(intent1);
                 finish();
                 break;
-            /*
             case R.id.btn_chStatus:
-                Intent intent2 = new Intent(this, delStatus.class);
+                Intent intent2 = new Intent(this, on_to_offstatus.class);
                 startActivity(intent2);
                 break;
-            */
             case R.id.del_home:
                 Intent intent3 = new Intent(this, delivery_HP.class);
                 startActivity(intent3);

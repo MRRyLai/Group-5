@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group5">
         <activity
+            android:name=".on_to_offstatus"
+            android:exported="false" />
+        <activity
             android:name=".del_setpage_off"
             android:exported="false" />
         <activity
