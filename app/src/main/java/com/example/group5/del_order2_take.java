@@ -7,32 +7,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class del_order1 extends AppCompatActivity {
+public class del_order2_take extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_del_order1);
+        setContentView(R.layout.activity_del_order2_take);
     }
 
     public void onclick(View v){
         switch (v.getId()){
 
-            case R.id.btn_takeorder1:
-                Intent intent2 = new Intent(this, del_order1_take.class);
-                startActivity(intent2);
-                break;
-
-            case R.id.del_home5:
+            case R.id.btn_delorder2:
                 Intent intent = new Intent(this, delivery_HP.class);
                 startActivity(intent);
                 break;
-            case R.id.del_delList5:
-                Toast.makeText(del_order1.this, "尚未接取訂單", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.del_menu5:
-                Intent intent1 = new Intent(this, delivery_setting.class);
+
+            case R.id.disorder_2:
+                Intent intent1 = new Intent(this, delivery_HP.class);
                 startActivity(intent1);
+                break;
+
+            case R.id.del_home7:
+                Toast.makeText(del_order2_take.this, "已有接取訂單，送達或棄單方能查看頁面", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.del_delList7:
+                break;
+            case R.id.del_menu7:
                 break;
 
         }

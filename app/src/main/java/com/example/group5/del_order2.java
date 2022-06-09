@@ -18,6 +18,11 @@ public class del_order2 extends AppCompatActivity {
     public void onclick(View v){
         switch (v.getId()){
 
+            case R.id.btn_takeorder2:
+                Intent intent2 = new Intent(this, del_order2_take.class);
+                startActivity(intent2);
+                break;
+
             case R.id.del_home6:
                 Intent intent = new Intent(this, delivery_HP.class);
                 startActivity(intent);

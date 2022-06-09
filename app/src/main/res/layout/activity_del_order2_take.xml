@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".del_order2">
+    tools:context=".del_order2_take">
 
     <ImageButton
-        android:id="@+id/del_home6"
+        android:id="@+id/del_home8"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/del_menu6"
+        android:id="@+id/del_menu8"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/menu" />
 
     <ImageButton
-        android:id="@+id/del_delList6"
+        android:id="@+id/del_delList8"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/deliver_list" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Order2"
@@ -47,36 +47,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.067" />
 
-    <ListView
-        android:id="@+id/lv_order2_list"
-        android:layout_width="379dp"
-        android:layout_height="272dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/del_delList6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228" />
-
-    <Button
-        android:id="@+id/btn_takeorder2"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
-        android:onClick="onclick"
-        android:text="接單"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/del_delList6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="商家位置"
@@ -86,23 +58,10 @@
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="買家位置"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
-
-    <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -112,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <TextView
         android:id="@+id/buyer_loc1"
@@ -125,6 +84,60 @@
         app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784" />
+        app:layout_constraintVertical_bias="0.392" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="買家位置"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <Button
+        android:id="@+id/disorder_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="棄單"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/btn_delorder2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="已送達"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/btn_getorder2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="已領取訂單"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

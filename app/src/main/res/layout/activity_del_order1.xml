@@ -61,12 +61,13 @@
         app:layout_constraintVertical_bias="0.228" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/btn_takeorder1"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:onClick="onclick"
         android:text="接單"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/del_delList5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -114,14 +115,14 @@
         app:layout_constraintVertical_bias="0.63" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/buyer_loc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="407台中市西屯區文華路200號"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.784" />
