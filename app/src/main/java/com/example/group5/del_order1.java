@@ -20,7 +20,7 @@ public class del_order1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_del_order1);
 
-        listView = (ListView) findViewById(R.id.lv_order1_list);
+        listView = (ListView) findViewById(R.id.lv_order_list);
         delOrderLVAdapter delOrderLVAdapter = new delOrderLVAdapter(getApplicationContext(),foodOrdered, orderedAmo);
         listView.setAdapter(delOrderLVAdapter);
     }
