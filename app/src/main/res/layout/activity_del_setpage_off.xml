@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".del_setpage_off">
 
     <ImageButton
-        android:id="@+id/del_home"
+        android:id="@+id/del_home_off"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -15,7 +16,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/del_delList"
+        android:id="@+id/del_delList_off"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -25,7 +26,7 @@
         app:srcCompat="@drawable/deliver_list" />
 
     <ImageButton
-        android:id="@+id/del_menu"
+        android:id="@+id/del_menu_off"
         android:layout_width="135dp"
         android:layout_height="50dp"
         android:onClick="onclick"
@@ -34,7 +35,7 @@
         app:srcCompat="@drawable/menu" />
 
     <Button
-        android:id="@+id/btn_changeIdentity"
+        android:id="@+id/btn_changeIdentity_off"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:onClick="onclick"
@@ -47,10 +48,9 @@
         app:layout_constraintVertical_bias="0.524" />
 
     <Button
-        android:id="@+id/btn_delLogout"
+        android:id="@+id/btn_delLogout_off"
         android:layout_width="320dp"
         android:layout_height="60dp"
-        android:onClick="onclick"
         android:text="登出"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +72,7 @@
         app:srcCompat="@drawable/headpicture" />
 
     <TextView
-        android:id="@+id/del_name"
+        android:id="@+id/del_name_off"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="name"
@@ -102,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="外送編號"
-        app:layout_constraintBottom_toBottomOf="@+id/del_delList"
+        app:layout_constraintBottom_toBottomOf="@+id/del_delList_off"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.784"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,12 +110,12 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <TextView
-        android:id="@+id/txt_workingSta"
+        android:id="@+id/txt_workingSta_off"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="值勤狀態"
         android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/del_delList"
+        app:layout_constraintBottom_toBottomOf="@+id/del_delList_off"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,17 +123,17 @@
         app:layout_constraintVertical_bias="0.404" />
 
     <ImageView
-        android:id="@+id/worklight"
+        android:id="@+id/worklight_off"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txt_workingSta"
-        app:layout_constraintStart_toEndOf="@+id/txt_workingSta"
-        app:layout_constraintTop_toTopOf="@+id/txt_workingSta"
-        app:srcCompat="@drawable/greenlight" />
+        app:layout_constraintBottom_toBottomOf="@+id/txt_workingSta_off"
+        app:layout_constraintStart_toEndOf="@+id/txt_workingSta_off"
+        app:layout_constraintTop_toTopOf="@+id/txt_workingSta_off"
+        app:srcCompat="@drawable/redlight" />
 
     <Button
-        android:id="@+id/btn_chStatus"
+        android:id="@+id/btn_chStatus_off"
         android:layout_width="113dp"
         android:layout_height="51dp"
         android:onClick="onclick"
