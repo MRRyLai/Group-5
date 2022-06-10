@@ -5,10 +5,22 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_business.xml" value="0.14375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_catch_order.xml" value="0.14375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_checking_order.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_choose_identity.xml" value="0.17889492753623187" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_delivery_hp.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_customer_service.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_del_order1.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_del_order2.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_del_order2_take.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_del_order_lv.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_del_setpage_off.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_delivery_hp.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_delivery_set.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_korean_store.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_shop_host.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_shoppingcar.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_store_list.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/activity_user_settings.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/listitem.xml" value="0.12635869565217392" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Group-5--US-004/app/src/main/res/layout/text_with_image_in_list.xml" value="0.264" />
@@ -33,25 +45,6 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/group52/app/src/main/res/layout/ourfood_activity_main.xml" value="0.11875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/group52/app/src/main/res/layout/text_with_image_in_list.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/group52/app/src/main/res/menu/menu.xml" value="0.1" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_choose_identity.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order1.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order1_take.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order2.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order2_take.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_order_lv.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_setpage_off.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_del_setpage_on.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delivery_hp.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delivery_set.xml" value="0.264" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_delset_order_sta.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_main.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_menu.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_off_to_onstatus.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_on_to_offstatus.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_order.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_order_listview.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/activity_store_list.xml" value="0.22871376811594202" />
-        <entry key="..\:/Users/user/Desktop/work/App/project/app/src/main/res/layout/del_order_lv.xml" value="0.24728260869565216" />
       </map>
     </option>
   </component>

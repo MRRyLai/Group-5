@@ -37,11 +37,14 @@ public class delivery_setting extends AppCompatActivity {
 
     public void onclick(View v){
         switch (v.getId()){
-
+            case R.id.btn_delivery_cus_service:
+                Intent intent = new Intent(this, customer_service.class);
+                startActivity(intent);
+                break;
 
             case R.id.btn_changeIdentity:
-                Intent intent = new Intent(this, choose_identity.class);
-                startActivity(intent);
+                Intent intent0 = new Intent(this, choose_identity.class);
+                startActivity(intent0);
                 break;
             case R.id.btn_delLogout:
                 Login.log_username = userid = username = "";
