@@ -51,6 +51,7 @@
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
+        android:onClick="onclick"
         android:text="登出"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
